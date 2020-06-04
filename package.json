@@ -1,0 +1,42 @@
+{
+  "name": "my-website",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://adicang.github.io/protfoliowebsite/",
+  "dependencies": {
+    "gh-pages": "^2.1.1",
+    "radium": "^0.26.0",
+    "react": "^16.11.0",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-animations": "^1.0.0",
+    "react-dom": "^16.11.0",
+    "react-reveal": "^1.2.2",
+    "react-scripts": "3.2.0",
+    "react-tilt": "^0.1.4",
+    "react-transition-group": "^4.3.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

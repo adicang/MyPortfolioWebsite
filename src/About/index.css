@@ -1,0 +1,93 @@
+.shadow-lg {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.my-img {
+  height: auto;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.my-img:hover {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.about-section-title {
+  margin: 0 0 4.5rem;
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+  padding-top: 10px;
+}
+
+svg {
+  bottom: 0;
+  width: 100%;
+  height: 10vw;
+  /* set height to pixels if you want angle to change with screen width */
+}
+
+.about-wrapper {
+  background-image: linear-gradient(to right, #e31b6d, #e31c5a);
+  min-height: 85vh;
+}
+
+.about-text {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin: auto;
+}
+
+a,
+a:active,
+a:hover,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+.cta-btn--resume {
+  color: #fff;
+  border: 2px solid #fff;
+  transition: 1s;
+  margin-bottom: 10px;
+}
+.cta-btn--resume:hover {
+  color: #e31b6d;
+  background-position: top left;
+  background-color: white;
+}
+.cta-btn {
+  display: inline-block;
+  position: relative;
+  padding: 0.8rem 1.6rem;
+  font-weight: 700;
+  line-height: 1;
+  z-index: 1;
+  transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+}
+a,
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem;
+}
+
+@media only screen and (max-width: 768px) {
+  a,
+  p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 3000px) {
+  svg {
+    height: 20vw;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  svg {
+    height: 10vw;
+  }
+}
