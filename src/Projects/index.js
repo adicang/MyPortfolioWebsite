@@ -89,18 +89,6 @@ function Projects() {
           srcCode='https://github.com/adicang/footballData'
           gif={footballGif}
         />
-
-        <hr />
-
-        <Project
-          title='Mabali-Malabi'
-          description='A site designed to market the new Malabi in Tel Aviv -
-          Mabali. The site will enable to reach as many new customers
-          as possible and advertise the new malabi.'
-          viewWebsite={false}
-          srcCode='https://github.com/adicang/Mabali-Malabi'
-          gif={mabaliGif}
-        />
       </div>
     </div>
   );
