@@ -6,6 +6,7 @@ import bookingymGif from './bookinGym.gif';
 import mabaliGif from './mabali.gif';
 import weatherGif from './accuWeather.gif';
 import TVShowGif from './TVshows.gif';
+import footballGif from './footballgif.gif';
 import Tilt from 'react-tilt';
 import Project from './project';
 
@@ -77,6 +78,16 @@ function Projects() {
           viewWebsite='https://adicang.github.io/weather-app-react/'
           srcCode='https://github.com/adicang/AccuWeather'
           gif={weatherGif}
+        />
+
+        <hr />
+
+        <Project
+          title='Football Project'
+          description='A website that pulls data for football teams and displays data such as the year the team was founded, name, address, website and lists the team players'
+          viewWebsite='https://adicang.github.io/footballData/'
+          srcCode='https://github.com/adicang/footballData'
+          gif={footballGif}
         />
 
         <hr />
